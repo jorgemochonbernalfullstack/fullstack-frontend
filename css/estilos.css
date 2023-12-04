@@ -1,0 +1,40 @@
+/* Estilos globales */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Verdana";
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+input {
+  border: 1px solid black;
+  margin: 7px;
+  display: inline-block;
+}
+
+label {
+  font-weight: bold;
+  display: inline-block;
+}
+
+/* Estilos únicos */
+#logo {
+  padding-top: 2rem;
+}
+
+#datos_cliente {
+  background-color: #55ccff;
+}
+
+#datos_pizza {
+  background-color: #40ccbb;
+}
+
+label {
+  display: inline-block;
+}
