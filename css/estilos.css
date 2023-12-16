@@ -22,6 +22,10 @@ label {
   display: inline-block;
 }
 
+.d-flex {
+  display: flex;
+}
+
 /* Estilos únicos */
 #logo {
   padding-top: 2rem;
@@ -35,6 +39,10 @@ label {
   background-color: #40ccbb;
 }
 
-label {
-  display: inline-block;
+#is_disponible {
+  display: none;
+  z-index: 1;
+  position: relative;
+  left: 2rem;
+  top: -1rem;
 }
