@@ -40,9 +40,9 @@ label {
 }
 
 #is_disponible {
-  display: none;
+  position: absolute;
+  left: 18.4rem;
+  top: 38rem;
   z-index: 1;
-  position: relative;
-  left: 2rem;
-  top: -1rem;
+  font-weight: bold;
 }
