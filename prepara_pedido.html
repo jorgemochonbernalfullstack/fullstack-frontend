@@ -94,14 +94,15 @@
             <div>
               <div class="d-flex">
                 <div>
-                  <label for="tamaño">Tamaño de la pizza:</label>
-                  <select id="tamaño">
+                  <label for="size">Tamaño de la pizza:</label>
+                  <select id="size">
                     <option disabled selected id="seleccion">Seleccione</option>
-                    <option id="pequeño">Pequeño</option>
-                    <option id="mediano">Mediano</option>
-                    <option id="grande">Grande</option>
-                    <option id="extra_grande">XXL</option>
+                    <option value="XXL">XXL</option>
+                    <option value="L">Grande</option>
+                    <option value="M">Mediana</option>
+                    <option value="S">Pequeña</option>
                   </select>
+                  <span id="resultado_tamano"></span>
                 </div>
                 <div><p id="is_disponible">Sí</p></div>
               </div>
